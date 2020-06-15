@@ -1,6 +1,9 @@
 // Business Logic:
 
-const placesIveBeen = [];
+function placesIveBeen() {
+  this.locations = [];
+  this.currentId = 0;
+}
 
 // End Business Logic
 
