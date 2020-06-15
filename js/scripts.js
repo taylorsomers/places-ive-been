@@ -35,7 +35,10 @@ function Location(name, landmarks, seasonVisited, notes) {
 // UI Logic
 
 $(document).ready(function() {
-
+  (event).preventDefault;
+  let listOfPlaces = new PlacesIveBeen();
+  let armenia = new Location("Armenia", ["Khor Virap Monastery", "Yerevan"], "Summer 2018", "Visited for two weeks and drove around the country with my friend Michael.")
+  let stPetersburg = new Location("St Petersburg, Russia", ["Church on Spilt Blood", "The Hermitage Palace", "Peterhof Palace", "St Isaac's Cathedral"], "Spring 2003", "Visited with my mother and stepfather while on a tour of the Baltic and Scandinavia.")
 });
 
 // End UI Logic
