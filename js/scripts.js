@@ -38,7 +38,12 @@ $(document).ready(function() {
   (event).preventDefault;
   let listOfPlaces = new PlacesIveBeen();
   let armenia = new Location("Armenia", ["Khor Virap Monastery", "Yerevan"], "Summer 2018", "Visited for two weeks and drove around the country with my friend Michael.")
+  let belgrade = new Location("Belgrade", ["Oskar Restaurant", "Tesla Museum"], "Spring 2010", "Visited while traveling across the Balkans with my college friend Tyler.")
   let stPetersburg = new Location("St Petersburg, Russia", ["Church on Spilt Blood", "The Hermitage Palace", "Peterhof Palace", "St Isaac's Cathedral"], "Spring 2003", "Visited with my mother and stepfather while on a tour of the Baltic and Scandinavia.")
+  let locationsToAdd = [armenia,belgrade,stPetersburg];
+  locationsToAdd.map(function(element) {
+    listOfPlaces.addLocation(element);
+  });
 });
 
 // End UI Logic
