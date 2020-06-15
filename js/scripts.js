@@ -1,6 +1,6 @@
 // Business Logic:
 
-
+const placesIveBeen = [];
 
 // End Business Logic
 

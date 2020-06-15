@@ -1,6 +1,6 @@
-# [Program Title]
+# Places I've Been
 
-  ### By [Author(s)]
+  ### By Taylor Somers
 
 ## Description
 
@@ -9,15 +9,18 @@
 ## Languages & Technologies Used:
 
   ### Programming Languages & Libraries
-  * [Unordered List]
+  * JavaScript
+  * Markdown
 
   ### Operating Systems & Programs
-  * [Unordered List]
+  * Git Bash
+  * Microsoft Windows 10
+  * Visual Studio Code
 
 ## Installation
 
   1. Download a web browser, such as Apple Safari, Google Chrome, Microsoft Edge, Mozilla Firefox, or Yandex.
-  2. Navigate to https://github.com/taylorsomers/[repository].
+  2. Navigate to https://github.com/taylorsomers/places-ive-been.
   3. Click the green "Clone or download" button at the right of the screen.
   4. Select "Download ZIP."
   5. Use a file extractor or unzip program (such as PeaZip, Unzipper, WinZip, Zipware, or 7-ZIP) to extract the ZIP files onto your computer.
@@ -28,20 +31,9 @@
 
   | Program Behavior | Example Behavior | Example Output |
   |---|---|---|
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
+  | Program will display a list of places to which I have traveled. |  |  |
+  | Program will display a list of properties for each place to which I have traveled when the user clicks on the place's name in the list. |  |  |
+  | Program will hide any previously displayed list of place-specific properties when a different place name is clicked. |  |  |
 
 ## Known Bugs
 
@@ -49,7 +41,7 @@
 
 ### Contributors
 
-  * [Contributor(s): Anyone who contributed at least %5 of the total product.]
+  * Taylor Somers
 
 ### License
 
